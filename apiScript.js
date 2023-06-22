@@ -1,7 +1,7 @@
 const API_URL = 'https://api.thecatapi.com/v1/images/search';
-  const API_KEY = "live_wnwdnJC3u270mi2WhO3oYqq7jwnwI68g9FfIqoLZDINYq3yRYXZEdL0yA0afCnAv";
+const API_KEY = "live_wnwdnJC3u270mi2WhO3oYqq7jwnwI68g9FfIqoLZDINYq3yRYXZEdL0yA0afCnAv";
   
-  function getRandomCatImage() {
+function getRandomCatImage() {
     fetch(API_URL, {
         headers: {
             'Content-Type': 'application/json',
